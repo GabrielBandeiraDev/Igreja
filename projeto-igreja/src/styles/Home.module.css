@@ -1,0 +1,178 @@
+/* styles/Home.module.css */
+
+.header {
+  background-color: #1b5e20; /* verde-principal */
+  color: #ffffff; /* branco */
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-size: 1.8em;
+  margin-left: 70px;
+}
+
+.hero {
+  background-image: url('/images/grupao.png');
+  background-size: cover;
+  background-position: center;
+  color: var(--branco);
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  height: 300px;
+  
+}
+
+.nosso{
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.informacoes {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+/* Carrossel */
+.carrossel {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  border-radius: 12px; /* Borda arredondada para o carrossel */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra leve para o carrossel */
+}
+
+/* Slide */
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrossel:hover .slide {
+  transform: scale(1.05); /* Efeito de aumento suave ao passar o mouse */
+}
+
+/* Grid de atividades */
+.atividadesGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 1rem; /* Adiciona padding no grid para não ficar encostado nas bordas */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Atividade individual */
+.atividade {
+  background: #fff; /* Cor de fundo branco */
+  border: 2px solid #f0f0f0; /* Borda suave e leve */
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 16px; /* Padding interno para afastar conteúdo das bordas */
+}
+
+.atividade:hover {
+  transform: translateY(-8px); /* Efeito de translação suave */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+}
+
+/* Imagem da atividade */
+.atividade img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Bordas arredondadas na imagem */
+  transition: transform 0.3s ease;
+}
+
+.atividade img:hover {
+  transform: scale(1.05); /* Efeito de aumento suave nas imagens */
+}
+
+/* Estilização do texto */
+.atividade h2, .atividade p {
+  color: #18530f; /* Cor verde para o texto */
+  font-family: 'Arial', sans-serif;
+  font-weight: 50;
+}
+
+.atividade h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.atividade p {
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+.inscricaoFinal {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.contato {
+  background-color: var(--verde-principal);
+  color: var(--branco);
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+.btn {
+  display: inline-block;
+  background-color: var(--laranja-principal);
+  color: var(--branco);
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: #18530f;
+  color: var(--branco);
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: var(--fundo-escuro);
+}
+
+/* styles/Home.module.css */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Adicione o resto do código CSS conforme necessário */
+
+
+
